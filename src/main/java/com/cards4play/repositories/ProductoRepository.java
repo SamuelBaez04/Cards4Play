@@ -19,7 +19,7 @@ public class ProductoRepository {
 
     public ProductoRepository() {
         this.mapper = new ObjectMapper();
-        this.mapper.registerModule(new JavaTimeModule()); // Soporte para fechas
+        this.mapper.registerModule(new JavaTimeModule());
     }
 
     public List<Producto> findAll() {
