@@ -46,7 +46,6 @@ public class CompraRepository {
         return findAll().stream().filter(c -> c.getId().equals(id)).findFirst();
     }
 
-    // Método útil para obtener el historial de un cliente en específico
     public List<Compra> findByIdCliente(String idCliente) {
         return findAll().stream()
                 .filter(c -> c.getIdCliente().equals(idCliente))

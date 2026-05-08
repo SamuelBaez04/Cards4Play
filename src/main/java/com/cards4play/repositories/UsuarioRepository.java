@@ -46,7 +46,6 @@ public class UsuarioRepository {
         return findAll().stream().filter(u -> u.getId().equals(id)).findFirst();
     }
 
-    // Método extra muy útil para el login
     public Optional<Usuario> findByEmail(String email) {
         return findAll().stream().filter(u -> u.getEmail().equals(email)).findFirst();
     }
