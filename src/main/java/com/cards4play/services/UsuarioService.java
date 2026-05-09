@@ -2,6 +2,7 @@ package com.cards4play.services;
 
 import com.cards4play.models.Administrador;
 import com.cards4play.models.Cliente;
+import com.cards4play.models.RolUsuario;
 import com.cards4play.models.Usuario;
 import com.cards4play.repositories.UsuarioRepository;
 import jakarta.annotation.PostConstruct;
@@ -27,15 +28,33 @@ public class UsuarioService {
             admin.setNombre("Super Admin");
             admin.setEmail("admin@cards4play.com");
             admin.setPasswordHash("admin123");
+            admin.setRol(RolUsuario.ADMIN);
             usuarioRepo.save(admin);
             System.out.println("Administrador por defecto creado exitosamente.");
         }
     }
 
     public Usuario autenticar(String email, String password) {
+        System.out.println("--- INICIANDO DEBUG DE LOGIN ---");
+        System.out.println("1. Datos recibidos de Insomnia -> Email: [" + email + "] | Password: [" + password + "]");
+
+        List<Usuario> usuariosEnArchivo = usuarioRepo.findAll();
+        System.out.println("2. Usuarios encontrados en el JSON: " + usuariosEnArchivo.size());
+
+        for (Usuario u : usuariosEnArchivo) {
+            System.out.println("   -> Leído del JSON: Email: [" + u.getEmail() + "] | Hash: [" + u.getPasswordHash() + "] | Rol: [" + u.getRol() + "]");
+        }
+
         return usuarioRepo.findByEmail(email)
-                .filter(u -> u.getPasswordHash().equals(password))
-                .orElseThrow(() -> new IllegalArgumentException("Credenciales inválidas"));
+                .filter(u -> {
+                    boolean coincide = u.getPasswordHash() != null && u.getPasswordHash().equals(password);
+                    System.out.println("3. ¿La contraseña enviada coincide con la del JSON?: " + coincide);
+                    return coincide;
+                })
+                .orElseThrow(() -> {
+                    System.out.println("❌ ERROR: Autenticación fallida. Lanzando 401.");
+                    return new IllegalArgumentException("Credenciales inválidas");
+                });
     }
 
     public Cliente registrarCliente(Cliente nuevoCliente) {

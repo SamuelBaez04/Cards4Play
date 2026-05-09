@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY, property = "tipo")
+@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.EXISTING_PROPERTY, property = "tipoProducto", visible = true)
 @JsonSubTypes({
         @JsonSubTypes.Type(value = Carta.class, name = "CARTA"),
         @JsonSubTypes.Type(value = Booster.class, name = "BOOSTER"),

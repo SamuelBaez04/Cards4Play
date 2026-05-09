@@ -8,10 +8,10 @@ import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY, property = "tipoUsuario")
+@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY, property = "rol", visible = true)
 @JsonSubTypes({
         @JsonSubTypes.Type(value = Administrador.class, name = "ADMIN"),
-        @JsonSubTypes.Type(value = Cliente.class, name = "ClIENTE")
+        @JsonSubTypes.Type(value = Cliente.class, name = "CLIENTE")
 })
 public abstract class Usuario {
 

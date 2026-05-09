@@ -34,7 +34,7 @@ public class ProductoService {
         for (Producto p : inventario) {
             if (p instanceof Carta) {
                 Carta c = (Carta) p;
-                c.setPrecioCOP(tasaActualCOP);
+                c.setPrecioCOP( c.getPrecioUSD() * tasaActualCOP);
             }
         }
 
