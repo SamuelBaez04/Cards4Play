@@ -8,8 +8,6 @@ import lombok.EqualsAndHashCode;
 public class Carta extends Producto{
 
     private String rareza;
-    private double precioUSD;
-    private double precioCOP;
 
     public Carta(){
         this.tipoProducto = TipoProducto.CARTA;

@@ -37,7 +37,7 @@ public class CompraService {
             }
             p.setStock(p.getStock() - 1);
             productoRepo.save(p);
-            total += p.getPrecio();
+            total += p.getPrecioCOP();
         }
 
 
