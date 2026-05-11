@@ -19,7 +19,8 @@ public abstract class Producto {
 
     protected String id;
     protected String nombre;
-    protected double precio;
+    protected double precioUSD;
+    protected double precioCOP;
     protected int stock;
     protected TipoProducto tipoProducto;
 

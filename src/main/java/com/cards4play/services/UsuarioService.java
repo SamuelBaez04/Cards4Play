@@ -69,4 +69,8 @@ public class UsuarioService {
     public List<Usuario> obtenerTodosLosUsuarios() {
         return usuarioRepo.findAll();
     }
+
+    public Optional<Usuario> buscarPorEmail(String email){
+        return usuarioRepo.findByEmail(email);
+    }
 }

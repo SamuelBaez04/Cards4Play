@@ -1,99 +1,17 @@
 [ {
-  "id" : "8d5d5d1e-908f-42ae-aea7-d89d6b57c339",
-  "nombre" : "Mago Oscuro",
-  "precio" : 0.0,
-  "stock" : 5,
-  "tipoProducto" : "CARTA",
-  "rareza" : "Ultra Rara",
+  "id" : "2c844c91-c21c-4118-af25-41562ce06a95",
+  "nombre" : "Dragón Blanco de Ojos Azules",
   "precioUSD" : 25.0,
-  "precioCOP" : 0.0
-}, {
-  "id" : "77a99b19-1ab8-4ea8-b084-9529c2833c71",
-  "nombre" : "Dragón Negro de Ojos Rojos",
-  "precio" : 0.0,
-  "stock" : 8,
-  "tipoProducto" : "CARTA",
-  "rareza" : "Súper Rara",
-  "precioUSD" : 18.5,
-  "precioCOP" : 0.0
-}, {
-  "id" : "ae9d6a58-d175-48e4-84ca-25a3fd7ab05c",
-  "nombre" : "Cráneo Convocado",
-  "precio" : 0.0,
-  "stock" : 15,
-  "tipoProducto" : "CARTA",
-  "rareza" : "Rara",
-  "precioUSD" : 8.0,
-  "precioCOP" : 0.0
-}, {
-  "id" : "dc53fc30-d6a2-4bdb-9f30-f74b9e1b3897",
-  "nombre" : "Renace el Monstruo",
-  "precio" : 0.0,
+  "precioCOP" : 0.0,
   "stock" : 10,
   "tipoProducto" : "CARTA",
-  "rareza" : "Súper Rara",
-  "precioUSD" : 12.0,
-  "precioCOP" : 0.0
+  "rareza" : "Ultra Rara"
 }, {
-  "id" : "3d745b02-6f32-4db4-8882-f97b15d248bb",
-  "nombre" : "Fuerza de Espejo",
-  "precio" : 0.0,
-  "stock" : 6,
+  "id" : "e427be34-8124-4f2b-ab58-604426ead604",
+  "nombre" : "Dragón Blanco de Ojos Azules",
+  "precioUSD" : 25.0,
+  "precioCOP" : 93277.406625,
+  "stock" : 10,
   "tipoProducto" : "CARTA",
-  "rareza" : "Ultra Rara",
-  "precioUSD" : 20.0,
-  "precioCOP" : 0.0
-}, {
-  "id" : "896c2938-ff3c-476f-9534-73f82cd8c6e1",
-  "nombre" : "Kuriboh",
-  "precio" : 0.0,
-  "stock" : 30,
-  "tipoProducto" : "CARTA",
-  "rareza" : "Común",
-  "precioUSD" : 2.5,
-  "precioCOP" : 0.0
-}, {
-  "id" : "d16f999f-0d9f-4f97-b8ce-eb2caa54ff00",
-  "nombre" : "Elfo Místico",
-  "precio" : 0.0,
-  "stock" : 40,
-  "tipoProducto" : "CARTA",
-  "rareza" : "Común",
-  "precioUSD" : 1.5,
-  "precioCOP" : 0.0
-}, {
-  "id" : "4969ed35-5225-44e6-be8d-16fb8398c73d",
-  "nombre" : "Soldado Gigante de Piedra",
-  "precio" : 0.0,
-  "stock" : 35,
-  "tipoProducto" : "CARTA",
-  "rareza" : "Común",
-  "precioUSD" : 1.2,
-  "precioCOP" : 0.0
-}, {
-  "id" : "d421769e-9711-4fcc-bda7-d2e43fb5ab1c",
-  "nombre" : "Polimerización",
-  "precio" : 0.0,
-  "stock" : 25,
-  "tipoProducto" : "CARTA",
-  "rareza" : "Común",
-  "precioUSD" : 3.0,
-  "precioCOP" : 0.0
-}, {
-  "id" : "0164f376-c54d-4a83-92b8-bcfa844d7993",
-  "nombre" : "Agujero Trampa",
-  "precio" : 0.0,
-  "stock" : 28,
-  "tipoProducto" : "CARTA",
-  "rareza" : "Común",
-  "precioUSD" : 2.0,
-  "precioCOP" : 0.0
-}, {
-  "id" : "eb3da471-e8b3-4bc9-a423-b8763428425b",
-  "nombre" : "Sobre Mega-Lote Retro",
-  "precio" : 9.99,
-  "stock" : 100,
-  "tipoProducto" : "BOOSTER",
-  "idCartasContenidas" : [ "8d5d5d1e-908f-42ae-aea7-d89d6b57c339", "3d745b02-6f32-4db4-8882-f97b15d248bb", "d421769e-9711-4fcc-bda7-d2e43fb5ab1c", "0164f376-c54d-4a83-92b8-bcfa844d7993", "896c2938-ff3c-476f-9534-73f82cd8c6e1", "3d745b02-6f32-4db4-8882-f97b15d248bb", "896c2938-ff3c-476f-9534-73f82cd8c6e1", "8d5d5d1e-908f-42ae-aea7-d89d6b57c339", "8d5d5d1e-908f-42ae-aea7-d89d6b57c339", "0164f376-c54d-4a83-92b8-bcfa844d7993" ],
-  "abierto" : true
+  "rareza" : "Ultra Rara"
 } ]

@@ -18,6 +18,8 @@ public class ProductoService {
 
     public Producto registrarProducto(Producto producto) {
         producto.setId(UUID.randomUUID().toString());
+        double tasaCambio = currencyService.obtenerTasaCambioUsdToCop();
+        producto.setPrecioCOP(producto.getPrecioUSD() * tasaCambio);
         productoRepo.save(producto);
         return producto;
     }
