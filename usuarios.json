@@ -1,0 +1,23 @@
+[ {
+  "id" : "c730ba73-6c31-49ca-8309-ad1ec9c727cd",
+  "nombre" : "Super Admin",
+  "email" : "admin@cards4play.com",
+  "passwordHash" : "admin123",
+  "rol" : "ADMIN"
+}, {
+  "id" : "008679e1-52a0-4c42-9bab-be6b9ebb6f36",
+  "nombre" : "Samuel El Teso",
+  "email" : "samuel.elteso@cards4play.com",
+  "passwordHash" : "miSuperClave123",
+  "rol" : "CLIENTE",
+  "idCompras" : [ ],
+  "idTorneosInscritos" : [ ]
+}, {
+  "id" : "2f7760d9-7f50-4733-bf6c-9b68e7a7c45d",
+  "nombre" : "Samuel",
+  "email" : "samuel@cards4play.com",
+  "passwordHash" : "12345",
+  "rol" : "CLIENTE",
+  "idCompras" : [ ],
+  "idTorneosInscritos" : [ ]
+} ]

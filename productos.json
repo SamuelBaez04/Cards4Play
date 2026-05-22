@@ -1,0 +1,17 @@
+[ {
+  "id" : "2c844c91-c21c-4118-af25-41562ce06a95",
+  "nombre" : "Dragón Blanco de Ojos Azules",
+  "precioUSD" : 25.0,
+  "precioCOP" : 0.0,
+  "stock" : 10,
+  "tipoProducto" : "CARTA",
+  "rareza" : "Ultra Rara"
+}, {
+  "id" : "e427be34-8124-4f2b-ab58-604426ead604",
+  "nombre" : "Dragón Blanco de Ojos Azules",
+  "precioUSD" : 25.0,
+  "precioCOP" : 93277.406625,
+  "stock" : 10,
+  "tipoProducto" : "CARTA",
+  "rareza" : "Ultra Rara"
+} ]
